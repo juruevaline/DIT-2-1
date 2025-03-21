@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            console.log("Hello Yengi")
+            //Declear varribles
+            let number = 10;
+            let message = "Yengi, javaScript!";
+            let islearning = true;
+            number = 65;
+            console.log(number);
+            console.log(message);
+            console.log(islearning);
+
+            //let vs var
+            if (true) {let blockScoped = "I'm limited to this block";
+                var functionScoped = "I exit outside this block too";
+                console.log(blockScoped);
+            }
+           // console.log(blockScoped);
+            console.log(functionScoped);
+            //const pi = 3.14159;
+            //console.log(pi);
+            let pi = 3.14159;
+            pi = 4.23;
+            console.log(pi);
+
+            let name = "Evelyn Juru";
+            console.log(`My name is ${name}`);
+            
+            //Example
+            function add(p1, p2) {
+                var sum = p1 + p2
+                console.log("The sum of the values entered " + sum)
+
+            }
+            add(12, 10)
+
+            //syntax ES6 Arrow Function
+            DIT = (Natal, Eve) => Natal + Eve;
+            console.log(DIT(5, 3));
+
+            // Alert
+            alert ("Welcome to Healing Kadi!");
+           let isconfirm = confirm("Do you want to proceed?");
+            console.log(isconfirm);
+
+            //Prompt for user input
+            let userName = prompt("What is your name?");
+            console.log(`Hello, ${userName}!`); 
+        
+
+
+            
+        </script>
+    </body>
+</html>
